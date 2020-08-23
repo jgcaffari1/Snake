@@ -9,8 +9,7 @@ email: caffarini@wisc.edu
 
 Other Notes: 
 
-	This project is meant to provide a fundamental interface for a machine learning algorithm to learn
-	how to play. Specifically, it is meant to save complete games, and parse the
+	This project is meant to provide a fundamental interface for AI interaction. Specifically, it is meant to save complete games, and parse the
 	saved game data.  This code could be adapted in the future to run output generated from
 	several ML trials playing the game.
 
@@ -30,11 +29,11 @@ To run the .jar, type at the command line from the same directory as Snake.jar:
 Future Work: 
 
 	Snake was desinged with machine learning in mind, so the next step will be a neural network for learning how to play.  The main candidate is a genetic algorithm because
-	it is commonly used for this type of application. This means that the main method will need to be modified for the creation of thousands of instances recording in tandem
+	it is commonly used for this type of application. This means that the main method will need to be modified for the creation of thousands of instances recording in tandem,
 	which might not be feasible with the current design, especially because it appends a string to save game data.  This project might also require a fitness score 
 	metric in addition to the game score to encourage certain playstyles over others.  
 
-	Other future directions would be to put this into it's own application, and fix known bugs.  
+	Other future directions would be to put this into its own application, and fix known bugs.  
 
 Known bugs: 
 
