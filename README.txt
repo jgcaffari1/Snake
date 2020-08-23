@@ -5,8 +5,6 @@ Semester: Summer 2020
 Project Name: Snake/SnakeFX
 Student Name: Joe Caffarini
 
-email: caffarini@wisc.edu
-
 Other Notes: 
 
 	This project is meant to provide a fundamental interface for AI interaction. Specifically, it is meant to save complete games, and parse the
