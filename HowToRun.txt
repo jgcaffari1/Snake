@@ -1,0 +1,20 @@
+How To Run
+
+
+To run the .jar, type at the command line from the same directory as Snake.jar: 
+
+	java -jar --module-path "C:\Users\userName\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml snake.jar 
+		-the above path should just be the path to the javafx library on your computer.  
+
+	  
+Known bugs: 
+
+	If you enter a save file name and restart the game, the program will save the parts of the game before the reset.  This means that after every reset, the file name 
+	for logging the save needs to be re entered, or else the save file will contain the old game up to the reset.  
+
+	The data is logged as a growing string, so it would be more efficient to instead append the lines directly to a txt file. This bug could be significant if there are
+	many game instances running at once, like when implementing a gentic algorithm.  
+
+	if the settings at the top of a saved file are corrupted, then the game will be unable to replay that log.  The top should include two one integer codes followed by 
+	hex rgb color codes, ex: 2-1-0xcce6ffff-0x804d80ff-0xff0000ff.
+	
