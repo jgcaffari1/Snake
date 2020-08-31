@@ -64,7 +64,7 @@ movement commands and food coordinates, the rest of the data is present for pote
 learning algorithms to learn the game. The “Data Log” title turns to “Dead!” when the user Dies, as
 shown in figure 8. 
 
-![Example end of game screen](/readme_images/snake8.png)![Replay Run Button](/readme_images/snake9.png)    
+![Example end of game screen](/readme_images/snake8.png) ![Replay Run Button](/readme_images/snake9.png)    
 __Figures 8 & 9__: Example end of game screen (Left). The data is only saved if the user selects "Save & Quit" from the File menu. The saved
 game data appears under the “DEAD!” title. Replay Run Button (Right). Click the "Replay Run button to open the GameFiles directory.
 
