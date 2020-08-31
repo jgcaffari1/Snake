@@ -2,7 +2,7 @@
 Snake
 =====
 
-A simple snake game created in javaFX.  
+A simple snake game created in javaFX by Joe Caffarini 
 
 To run the .jar, type at the command line from the same directory as Snake.jar: 
 
