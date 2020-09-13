@@ -9,6 +9,10 @@ To run the .jar, type at the command line from the same directory as Snake.jar:
 	java -jar --module-path "C:\Users\userName\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml snake.jar 
 	
     -the above path should be the path to the javafx library on your computer.  
+
+Cite this project:  
+[![DOI](https://zenodo.org/badge/289769479.svg)](https://zenodo.org/badge/latestdoi/289769479)
+
     
 User Guide:
 -----
